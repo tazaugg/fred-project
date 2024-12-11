@@ -1,0 +1,5 @@
+Model,Key Hyperparameters,Rationale
+Linear Regression,None (Ordinary Least Squares),"Simple, interpretable baseline"
+Random Forest,"n_estimators, max_depth",Handles non-linearity and interactions
+Gradient Boosting,"learning_rate, n_estimators",Effective with structured data; mitigates overfitting
+SVM,"C (Regularization), kernel",Effective for non-linear boundaries
